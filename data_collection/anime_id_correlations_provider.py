@@ -23,13 +23,13 @@ for i in range(1, 1000):
     if len(animes) == 0:
         break
     for anime in animes:
-        at_id = anime['id']
+        at_slug = anime['slug']
         al_id = get_al_id(anime['resources'])
         if not al_id:
             logs.append(f'Skipping {anime['name']} (slug: {anime['slug']} AnimeThemesId: {anime['id']}) id for AniList not found')
             print(color_text('Skipping {anime["title"]}', Colors.red))
             continue
-        correlations.append(f'{at_id}{separator}{al_id}')
+        correlations.append(f'{at_slug}{separator}{al_id}')
         print(anime['name'], ' added')
 
     print(color_text(f'Page {i} finished', Colors.green))
@@ -37,7 +37,12 @@ for i in range(1, 1000):
 
 
 
-write_lines('correlations.txt', correlations)
-write_lines('correlation_logs.txt', logs)
+write_lines('data/correlations.txt', correlations)
+
+
+done_messege = f"Done! Fetched {len(correlations)} correlations."
+print(color_text(done_messege, Colors.green))
+logs.append(done_messege)
+write_lines('logs/correlation_logs.txt', logs)
 
 

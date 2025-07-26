@@ -1,3 +1,4 @@
+import os
 import time
 from typing import List
 from requests import Response
@@ -5,6 +6,7 @@ from requests import Response
 
 separator = '#SEP#'
 class Colors:
+    grey = '\033[90m'
     green = '\033[92m'
     yellow = '\033[93m'
     red = '\033[91m'
@@ -22,6 +24,7 @@ def check_limit_and_wait(r: Response) -> None:
         time.sleep(0.3)
 
 def write_lines(filename: str, lines: List[str]) -> None:
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename, "w", encoding="utf-8") as f:
         for lines in lines:
             f.write(lines + "\n")

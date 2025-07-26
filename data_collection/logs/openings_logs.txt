@@ -1,0 +1,57 @@
+Anime Howl‘s Moving Castle (al_id: 431) not found in correlations 
+Anime My Neighbor Totoro (al_id: 523) not found in correlations 
+Anime Akira (al_id: 47) not found in correlations 
+Anime Into the Forest of Fireflies' Light (al_id: 10408) not found in correlations 
+Anime Grave of the Fireflies (al_id: 578) not found in correlations 
+Anime Ponyo (al_id: 2890) not found in correlations 
+Anime Kiki's Delivery Service (al_id: 512) not found in correlations 
+Anime Hellsing Ultimate (al_id: 777) not found in correlations 
+Anime The Girl Who Leapt Through Time (al_id: 2236) not found in correlations 
+Anime Kizumonogatari Part 1: Tekketsu (al_id: 9260) not found in correlations 
+Anime Attack on Titan: No Regrets (al_id: 20811) not found in correlations 
+Anime HAIKYU!! LAND VS. AIR (al_id: 111790) not found in correlations 
+Anime Summer Wars (al_id: 5681) not found in correlations 
+Anime Steins;Gate: Egoistic Poriomania (al_id: 10863) not found in correlations 
+Anime Evangelion: 3.0+1.0 Thrice Upon a Time (al_id: 3786) not found in correlations 
+Anime Violet Evergarden: Special (al_id: 101432) not found in correlations 
+Anime The Boy and The Beast (al_id: 20981) not found in correlations 
+Anime Whisper of the Heart (al_id: 585) not found in correlations 
+Anime JoJo's Bizarre Adventure: STONE OCEAN Part 2 (al_id: 146722) not found in correlations 
+Anime Nausicaä of the Valley of the Wind (al_id: 572) not found in correlations 
+Anime The Secret World of Arrietty (al_id: 7711) not found in correlations 
+Anime Little Witch Academia (al_id: 14349) not found in correlations 
+Anime The Disastrous Life of Saiki K.: Reawakened (al_id: 112625) not found in correlations 
+Anime One-Punch Man: Road to Hero (al_id: 21386) not found in correlations 
+Anime Demon Slayer: Kimetsu no Yaiba Infinity Castle (al_id: 178788) not found in correlations 
+Anime PLUTO (al_id: 99088) not found in correlations 
+Anime Black Clover: Sword of the Wizard King (al_id: 131680) not found in correlations 
+Anime The King's Avatar (al_id: 98861) not found in correlations 
+Anime Kaiju No. 8 Season 2 (al_id: 178754) not found in correlations 
+Anime LOOK BACK (al_id: 174788) not found in correlations 
+Anime Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen OVA (al_id: 125368) not found in correlations 
+Anime One-Punch Man Season 3 (al_id: 153800) not found in correlations 
+Anime The Disastrous Life of Saiki K. Season 3 (al_id: 104580) not found in correlations 
+Anime Bubble (al_id: 142455) not found in correlations 
+Anime When Marnie Was There (al_id: 20555) not found in correlations 
+Anime The Tunnel to Summer, the Exit of Goodbyes (al_id: 142769) not found in correlations 
+Anime Chainsaw Man – The Movie: Reze Arc (al_id: 171627) not found in correlations 
+Anime Kuroko's Basketball: Last Game (al_id: 21377) not found in correlations 
+Anime Doukyuusei -Classmates- (al_id: 21096) not found in correlations 
+Anime Shelter (al_id: 97731) not found in correlations 
+Anime Steins;Gate 0: 23β -Divide by Zero- (al_id: 21624) not found in correlations 
+Anime Sword Art Online EXTRA EDITION (al_id: 20021) not found in correlations 
+Anime Noragami OVA (al_id: 20494) not found in correlations 
+Anime Love, Chunibyo & Other Delusions: Glimmering...Explosive Festival (Slapstick Noel) (al_id: 16934) not found in correlations 
+Anime Miss Kobayashi's Dragon Maid: Valentines and Hot Springs! (Please Don't Get Your Hopes Up) (al_id: 98580) not found in correlations 
+Anime The Cat Returns (al_id: 597) not found in correlations 
+Anime Sword of the Stranger (al_id: 2418) not found in correlations 
+Anime Anohana the Movie: The Flower We Saw That Day (al_id: 15039) not found in correlations 
+Anime The Ancient Magus' Bride: Those Awaiting a Star (al_id: 21688) not found in correlations 
+Anime Dragon Ball Z: Battle of Gods (al_id: 14837) not found in correlations 
+Anime Porco Rosso (al_id: 416) not found in correlations 
+Anime I've Always Liked You (al_id: 21296) not found in correlations 
+Anime One Piece Film: Red (al_id: 141902) not found in correlations 
+Anime The Tale of The Princess Kaguya (al_id: 16664) not found in correlations 
+Anime WONDER EGG PRIORITY: My Priority (al_id: 131773) not found in correlations 
+Anime Boku no Hero Academia: Sukue! Kyuujo Kunren! (al_id: 87486) not found in correlations 
+Done! Fetched 1361 openings.
