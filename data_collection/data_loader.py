@@ -1,30 +1,9 @@
-from dataclasses import dataclass
+from pathlib import Path
 from random import shuffle
 from typing import Dict, List, Literal
 
+from data_collection.models import Anime, Opening
 from data_collection.utils import separator
-
-@dataclass
-class Anime:
-    Name: str
-    AniListID: int
-
-    def __post_init__(self):
-        self.AniListID = int(self.AniListID)
-
-@dataclass
-class Opening:
-    AnimeName: str
-    AniListID: int
-    Title: str
-    Num: str
-    Artist: str
-    VideoLink: str
-    ATLink: str
-
-    def __post_init__(self):
-        self.AniListID = int(self.AniListID)
-
 
 def get_correlations() -> Dict[int, int]:
     result = {}
@@ -42,12 +21,14 @@ def get_top_animes() -> List[Anime]:
             result.append(Anime(*line.split(sep=separator)))
     return result
 
-def get_openings(number: int = 128, mode:str = 'top', selection: str | None = None) -> List[Opening]:
-    return get_openings_all(number, mode) if selection is None else get_openings_single_per_anime(number, mode, selection)
+def get_openings(number: int = 128, mode:Literal['top', 'random'] = 'top', selection: Literal['first', 'random'] | None = None) -> List[Opening]:
+    base_path = Path(__file__).parent
+    file_path = base_path / 'data' / 'openings.txt'
+    return get_openings_all(file_path, number, mode) if selection is None else get_openings_single_per_anime(file_path, number, mode, selection)
 
-def get_openings_all(number: int = 128, mode:str = 'top') -> List[Opening]:
+def get_openings_all(path: Path, number: int = 128, mode:str = 'top') -> List[Opening]:
     openings = []
-    with open('data/openings.txt', 'r', encoding="utf-8") as file:
+    with path.open('r', encoding="utf-8") as file:
         for line in file:
             openings.append(Opening(*line.split(sep=separator)))
     if mode == 'random':
@@ -55,9 +36,9 @@ def get_openings_all(number: int = 128, mode:str = 'top') -> List[Opening]:
     return openings[:number]
 
 
-def get_openings_single_per_anime(number: int = 128, mode: Literal['top', 'random'] = 'top', selection: Literal['first', 'random'] = None) -> List[Opening]:
+def get_openings_single_per_anime(path: Path, number: int = 128, mode: Literal['top', 'random'] = 'top', selection: Literal['first', 'random'] = None) -> List[Opening]:
     openings = {}
-    with open('data/openings.txt', 'r', encoding="utf-8") as file:
+    with path.open('r', encoding="utf-8") as file:
         for line in file:
             op = Opening(*line.split(sep=separator))
             if op.AniListID in openings:

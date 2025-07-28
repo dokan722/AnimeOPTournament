@@ -23,13 +23,13 @@ Anime Little Witch Academia (al_id: 14349) not found in correlations
 Anime The Disastrous Life of Saiki K.: Reawakened (al_id: 112625) not found in correlations 
 Anime One-Punch Man: Road to Hero (al_id: 21386) not found in correlations 
 Anime Demon Slayer: Kimetsu no Yaiba Infinity Castle (al_id: 178788) not found in correlations 
+Anime Kaiju No. 8 Season 2 (al_id: 178754) not found in correlations 
 Anime PLUTO (al_id: 99088) not found in correlations 
 Anime Black Clover: Sword of the Wizard King (al_id: 131680) not found in correlations 
-Anime The King's Avatar (al_id: 98861) not found in correlations 
-Anime Kaiju No. 8 Season 2 (al_id: 178754) not found in correlations 
 Anime LOOK BACK (al_id: 174788) not found in correlations 
-Anime Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen OVA (al_id: 125368) not found in correlations 
+Anime The King's Avatar (al_id: 98861) not found in correlations 
 Anime One-Punch Man Season 3 (al_id: 153800) not found in correlations 
+Anime Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen OVA (al_id: 125368) not found in correlations 
 Anime The Disastrous Life of Saiki K. Season 3 (al_id: 104580) not found in correlations 
 Anime Bubble (al_id: 142455) not found in correlations 
 Anime When Marnie Was There (al_id: 20555) not found in correlations 
@@ -47,11 +47,179 @@ Anime The Cat Returns (al_id: 597) not found in correlations
 Anime Sword of the Stranger (al_id: 2418) not found in correlations 
 Anime Anohana the Movie: The Flower We Saw That Day (al_id: 15039) not found in correlations 
 Anime The Ancient Magus' Bride: Those Awaiting a Star (al_id: 21688) not found in correlations 
-Anime Dragon Ball Z: Battle of Gods (al_id: 14837) not found in correlations 
 Anime Porco Rosso (al_id: 416) not found in correlations 
-Anime I've Always Liked You (al_id: 21296) not found in correlations 
+Anime Dragon Ball Z: Battle of Gods (al_id: 14837) not found in correlations 
 Anime One Piece Film: Red (al_id: 141902) not found in correlations 
+Anime I've Always Liked You (al_id: 21296) not found in correlations 
 Anime The Tale of The Princess Kaguya (al_id: 16664) not found in correlations 
 Anime WONDER EGG PRIORITY: My Priority (al_id: 131773) not found in correlations 
 Anime Boku no Hero Academia: Sukue! Kyuujo Kunren! (al_id: 87486) not found in correlations 
-Done! Fetched 1361 openings.
+Anime Death Billiards (al_id: 14353) not found in correlations 
+Anime High School of the Dead: Drifters of the Dead (al_id: 9515) not found in correlations 
+Anime Clannad: Another World, Tomoyo Chapter (al_id: 4059) not found in correlations 
+Anime Hunter x Hunter: Phantom Rouge (al_id: 13271) not found in correlations 
+Anime In This Corner of the World (al_id: 15227) not found in correlations 
+Anime Aggretsuko (al_id: 101571) not found in correlations 
+Anime High School DxD OVA (al_id: 12729) not found in correlations 
+Anime One Piece Film: Z (al_id: 12859) not found in correlations 
+Anime From Up on Poppy Hill (al_id: 10029) not found in correlations 
+Anime Angel's Egg (al_id: 885) not found in correlations 
+Anime Kill la Kill: GOODBYE AGAIN (al_id: 20572) not found in correlations 
+Anime Angel Beats! Specials (al_id: 9062) not found in correlations 
+Anime Pokémon: The First Movie (al_id: 528) not found in correlations 
+Anime Charlotte: Strong People (al_id: 21339) not found in correlations 
+Anime Tokyo Ghoul: [JACK] (al_id: 21132) not found in correlations 
+Anime One Piece: Stampede (al_id: 105143) not found in correlations 
+Anime Heaven Official's Blessing (al_id: 113260) not found in correlations 
+Anime MUSHI-SHI The Next Passage 2 (al_id: 20751) not found in correlations 
+Anime Dragon Ball Z: Resurrection 'F' (al_id: 20778) not found in correlations 
+Anime The Boy and the Heron (al_id: 109979) not found in correlations 
+Anime Danganronpa 3: The End of Hope's Peak High School - Hope Arc (al_id: 97672) not found in correlations 
+Anime The Way of the Househusband Part 2 (al_id: 132193) not found in correlations 
+Anime Little Witch Academia: The Enchanted Parade (al_id: 19489) not found in correlations 
+Anime OVERLORD: The Sacred Kingdom (al_id: 133845) not found in correlations 
+Anime Children who Chase Lost Voices (al_id: 9760) not found in correlations 
+Anime Blue Exorcist: The Movie (al_id: 11737) not found in correlations 
+Anime Fullmetal Alchemist: The Movie - Conqueror of Shamballa (al_id: 430) not found in correlations 
+Anime Jujutsu Kaisen: Shimetsu Kaiyuu (al_id: 172463) not found in correlations 
+Anime Frieren: Beyond Journey’s End Season 2 (al_id: 182255) not found in correlations 
+Anime K: MISSING KINGS (al_id: 16904) not found in correlations 
+Anime Tokyo Ghoul: [PINTO] (al_id: 21326) not found in correlations 
+Anime One Piece Film: Gold (al_id: 21335) not found in correlations 
+Anime Date A Live: Date to Date (al_id: 17641) not found in correlations 
+Anime Date A Live Mayuri Judgement (al_id: 20741) not found in correlations 
+Anime Pokémon Origins (al_id: 20159) not found in correlations 
+Anime Food Wars! The Second Plate OVA (al_id: 98702) not found in correlations 
+Anime the Garden of sinners Chapter 7: ……not nothing heart. (Murder Speculation Part B) (al_id: 5205) not found in correlations 
+Anime Hyouka: What Should Be Had (al_id: 13469) not found in correlations 
+Anime One Piece Film: Strong World (al_id: 4155) not found in correlations 
+Anime Jin-Roh: The Wolf Brigade (al_id: 570) not found in correlations 
+Anime Fate/stay night: Unlimited Blade Works (Movie) (al_id: 6922) not found in correlations 
+Anime My Hero Academia: Make It! Do-or-Die Survival Training (al_id: 122349) not found in correlations 
+Anime the Garden of sinners Chapter 6: Fairy Tale. (Oblivion Recording) (al_id: 5204) not found in correlations 
+Anime The Irregular at Magic High School The Movie: The Girl Who Summons the Stars (al_id: 21684) not found in correlations 
+Anime Angel Beats!: Another Epilogue (al_id: 10067) not found in correlations 
+Anime Hunter x Hunter: The Last Mission (al_id: 19951) not found in correlations 
+Anime The Seven Deadly Sins OVA (al_id: 21104) not found in correlations 
+Anime Hell’s Paradise Season 2 (al_id: 166613) not found in correlations 
+Anime Mirai (al_id: 100749) not found in correlations 
+Anime Toradora!: Bento Battle (al_id: 11553) not found in correlations 
+Anime Date A Live II: Kurumi Star Festival (al_id: 20767) not found in correlations 
+Anime Bungo Stray Dogs 2: Walking Alone (al_id: 21791) not found in correlations 
+Anime Black Butler: Book of the Atlantic (al_id: 21425) not found in correlations 
+Anime Mirai Nikki OVA (al_id: 8460) not found in correlations 
+Anime The Place Promised in Our Early Days (al_id: 433) not found in correlations 
+Anime Record of Ragnarok II (al_id: 138056) not found in correlations 
+Anime K-ON!: Live House! (al_id: 6862) not found in correlations 
+Anime High School DxD: Fantasy Jiggles Unleashed (al_id: 13357) not found in correlations 
+Anime No Game No Life Specials (al_id: 20769) not found in correlations 
+Anime Ocean Waves (al_id: 743) not found in correlations 
+Anime Dragon Ball Super: SUPER HERO (al_id: 133898) not found in correlations 
+Anime Black Butler: Book of Murder (al_id: 20670) not found in correlations 
+Anime Vampire Hunter D: Bloodlust (al_id: 543) not found in correlations 
+Anime Another: The Other (al_id: 11701) not found in correlations 
+Anime Only Yesterday (al_id: 1029) not found in correlations 
+Anime Bleach the Movie: Memories of Nobody (al_id: 1686) not found in correlations 
+Anime My Hero Academia FINAL SEASON (al_id: 182896) not found in correlations 
+Anime SPY×FAMILY Season 3 (al_id: 177937) not found in correlations 
+Anime Pokémon the Movie 2000 (al_id: 1117) not found in correlations 
+Anime Memories (al_id: 1462) not found in correlations 
+Anime Youjo Senki II (al_id: 135865) not found in correlations 
+Anime Mob Psycho 100 II: The First Spirits and Such Company Trip ~A Journey that Mends the Heart and Heals the Soul~ (al_id: 109819) not found in correlations 
+Anime BLUE LOCK THE MOVIE -EPISODE NAGI- (al_id: 163147) not found in correlations 
+Anime Spice and Wolf II: Wolf and the Amber Melancholy (al_id: 6007) not found in correlations 
+Anime JoJo's Bizarre Adventure (al_id: 666) not found in correlations 
+Anime Noragami ARAGOTO OVA (al_id: 119941) not found in correlations 
+Anime Prison School: Mad Wax (al_id: 21565) not found in correlations 
+Anime ORESUKI: Are you the only one who loves me?: Our Playball / Our End Run / Our Game (al_id: 114195) not found in correlations 
+Anime One-Punch Man Season 2 OVA (al_id: 108945) not found in correlations 
+Anime Seraph of the End: Vampire Reign - Owaranai Seraph (al_id: 21483) not found in correlations 
+Anime Made in Abyss: Wandering Twilight (al_id: 101344) not found in correlations 
+Anime Pokémon 3: The Movie (al_id: 1118) not found in correlations 
+Anime Bleach the Movie: Hell Verse (al_id: 8247) not found in correlations 
+Anime Sing a Bit of Harmony (al_id: 123899) not found in correlations 
+Anime Death Note: Relight (al_id: 2994) not found in correlations 
+Anime Nisekoi OVA (al_id: 20728) not found in correlations 
+Anime My Hero Academia the Movie: Two Heroes Specials (al_id: 105893) not found in correlations 
+Anime Love, Chunibyo & Other Delusions - Heart Throb -: The Rikka Wars/ Apocalypse of the Wicked Lord Shingan Reborn (al_id: 20889) not found in correlations 
+Anime High School DxD NEW OVA Oppai, Tsutsumimasu! (al_id: 21103) not found in correlations 
+Anime Beyond the Boundary -I'LL BE HERE-: Past (al_id: 20768) not found in correlations 
+Anime Star Wars: Visions (al_id: 138060) not found in correlations 
+Anime the Garden of sinners Chapter 8: The Final Chapter (al_id: 6954) not found in correlations 
+Anime [Oshi no Ko] 3rd Season (al_id: 182587) not found in correlations 
+Anime Hori-san to Miyamura-kun (al_id: 14753) not found in correlations 
+Anime K-ON! Season 2: Plan! (al_id: 9734) not found in correlations 
+Anime Bleach the Movie: The DiamondDust Rebellion (al_id: 2889) not found in correlations 
+Anime Dragon Ball Z: Fusion Reborn (al_id: 905) not found in correlations 
+Anime Dragon Ball Z: Broly - The Legendary Super Saiyan (al_id: 901) not found in correlations 
+Anime Time of Eve (al_id: 3167) not found in correlations 
+Anime Tales from Earthsea (al_id: 1829) not found in correlations 
+Anime Mushoku Tensei: Jobless Reincarnation Season 3 (al_id: 178789) not found in correlations 
+Anime Bleach the Movie: Fade to Black (al_id: 4835) not found in correlations 
+Anime Fate/stay night: Unlimited Blade Works 2nd Season - sunny day (al_id: 21318) not found in correlations 
+Anime Ghost Hunt (al_id: 1571) not found in correlations 
+Anime Baccano! Specials (al_id: 3901) not found in correlations 
+Anime Fullmetal Alchemist: The Sacred Star of Milos (al_id: 9135) not found in correlations 
+Anime HAIKYU!!: Lev Appears! (al_id: 20884) not found in correlations 
+Anime Pokémon 4Ever (al_id: 1119) not found in correlations 
+Anime Made in Abyss: Journey's Dawn (al_id: 101343) not found in correlations 
+Anime Angels of Death (ONA) (al_id: 104243) not found in correlations 
+Anime Beyond the Boundary: Daybreak (al_id: 20779) not found in correlations 
+Anime Mysteria Friends (al_id: 21322) not found in correlations 
+Anime Seraph of the End: Kyuuketsuki Shahal (al_id: 21586) not found in correlations 
+Anime Aggretsuko: Season 2 (al_id: 105200) not found in correlations 
+Anime Steins;Gate 0: Valentine's of Crystal Polymorphism -Bittersweet Intermedio- (al_id: 104174) not found in correlations 
+Anime Recovery of an MMO Junkie OVA (al_id: 100684) not found in correlations 
+Anime Hal (al_id: 16528) not found in correlations 
+Anime Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising- (al_id: 133007) not found in correlations 
+Anime Full-Time Magister (al_id: 99200) not found in correlations 
+Anime Dragon Ball Z: Cooler's Revenge (al_id: 898) not found in correlations 
+Anime Voices of a Distant Star (al_id: 256) not found in correlations 
+Anime Mob Psycho 100 REIGEN The Miraculous Unknown Psychic (al_id: 100353) not found in correlations 
+Anime Boku no Hero Academia: Training of the Dead (al_id: 130183) not found in correlations 
+Anime Masamune-kun's Revenge OAD (al_id: 101213) not found in correlations 
+Anime Kamisama Kiss◎ OVA (al_id: 21186) not found in correlations 
+Anime A Certain Magical Index: The Miracle of Endymion (al_id: 11743) not found in correlations 
+Anime Baki Hanma Season 2 (al_id: 146646) not found in correlations 
+Anime The Way of the Househusband: Season 2 (al_id: 154982) not found in correlations 
+Anime Elfen Lied: Just How Did the Young Girl Arrive at Those Feelings? (al_id: 376) not found in correlations 
+Anime the Garden of sinners -recalled out summer- (al_id: 14807) not found in correlations 
+Anime The Seven Deadly Sins: Cursed by Light (al_id: 128740) not found in correlations 
+Anime Inferno Cop (al_id: 16774) not found in correlations 
+Anime Kage no Jitsuryokusha ni Naritakute!: Zankyou-hen (al_id: 171952) not found in correlations 
+Anime Durarara!! Specials (al_id: 8408) not found in correlations 
+Anime Mary and The Witch's Flower (al_id: 97981) not found in correlations 
+Anime Dragon Ball Z: Wrath of the Dragon (al_id: 906) not found in correlations 
+Anime Food Wars! Shokugeki no Soma OVA (al_id: 21691) not found in correlations 
+Anime Scott Pilgrim Takes Off (al_id: 170206) not found in correlations 
+Anime MUSHI-SHI OVA (al_id: 20526) not found in correlations 
+Anime Ninja Scroll (al_id: 617) not found in correlations 
+Anime Dragon Ball Z: Broly - Second Coming (al_id: 903) not found in correlations 
+Anime Trinity Seven: Nanatsu no Taizai to Nana Madoushi (al_id: 21064) not found in correlations 
+Anime Monthly Girls' Nozaki-kun Specials (al_id: 20869) not found in correlations 
+Anime Aura (al_id: 14669) not found in correlations 
+Anime Super Danganronpa 2.5 Komaeda Nagito to Sekai no Hakaimono (al_id: 98153) not found in correlations 
+Anime My Hero Academia: You’re Next (al_id: 168013) not found in correlations 
+Anime HAIKYU!!: VS Failing Marks (al_id: 21348) not found in correlations 
+Anime High School DxD BorN: Yomigaeranai Fushichou (al_id: 21573) not found in correlations 
+Anime Dawang Raoming (al_id: 120220) not found in correlations 
+Anime Tekkonkinkreet (al_id: 2154) not found in correlations 
+Anime Fate/Prototype (al_id: 12565) not found in correlations 
+Anime Yuuri!!! on ICE The Movie: ICE ADOLESCENCE (al_id: 98656) not found in correlations 
+Anime ONE PIECE: The Movie (al_id: 459) not found in correlations 
+Anime Daily Lives of High School Boys Specials (al_id: 12893) not found in correlations 
+Anime Mobile Suit Gundam: The Witch from Mercury - PROLOGUE (al_id: 146922) not found in correlations 
+Anime Metropolis (al_id: 522) not found in correlations 
+Anime Pokémon Heroes (al_id: 1120) not found in correlations 
+Anime Miss Kobayashi's Dragon Something (al_id: 98502) not found in correlations 
+Anime Dungeon Meshi 2nd Season (al_id: 178031) not found in correlations 
+Anime Dragon Ball Z: The Return of Cooler (al_id: 899) not found in correlations 
+Anime Hajime no Ippo: The Fighting! - Champion Road (al_id: 264) not found in correlations 
+Anime Your lie in April: Moments (al_id: 21039) not found in correlations 
+Anime Dragon Ball Z: Bio-Broly (al_id: 904) not found in correlations 
+Anime Dragon Ball Z: Bojack Unbound (al_id: 902) not found in correlations 
+Anime Lupin The 3rd: The Castle of Cagliostro (al_id: 1430) not found in correlations 
+Anime Ao Haru Ride: unwritten (al_id: 20837) not found in correlations 
+Anime Steins;Gate: Soumei Eichi no Cognitive Computing (al_id: 20907) not found in correlations 
+Anime One Piece: Baron Omatsuri and the Secret Island (al_id: 464) not found in correlations 
+Done! Fetched 2232 openings.

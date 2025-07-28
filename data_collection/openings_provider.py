@@ -64,7 +64,7 @@ for i, anime in enumerate(animes):
         op_num = str('OP' + str(opening['sequence'] if opening['sequence'] is not None else 1))
         song = opening['song']
         opening_title = song['title'] if song['title'] else 'Unknown title'
-        artist = song['artists'][0]['name'] if song['artists'] and song['artists'][0]['name'] else 'Unknown title'
+        artist = song['artists'][0]['name'] if song['artists'] and song['artists'][0]['name'] else 'Unknown artist'
         video_link = get_best_resolution(opening)
         opening_entries.append(separator.join([anime.Name, str(anime.AniListID), opening_title, op_num, artist, video_link, full_url]))
         print(color_text(f'\tAdded: {op_num}', Colors.grey))

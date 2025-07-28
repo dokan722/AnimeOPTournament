@@ -15,13 +15,13 @@ class Colors:
 def color_text(text: str, color: str) -> str:
     return f'{color}{text}{Colors.end_color}'
 
-def check_limit_and_wait(r: Response) -> None:
+def check_limit_and_wait(r: Response, timeout: float = 0.3) -> None:
     remaining = r.headers['X-RateLimit-Remaining']
     if remaining == '0':
         print(color_text('Waiting 60 seconds for more requests', Colors.yellow))
         time.sleep(60)
     else:
-        time.sleep(0.3)
+        time.sleep(timeout)
 
 def write_lines(filename: str, lines: List[str]) -> None:
     os.makedirs(os.path.dirname(filename), exist_ok=True)

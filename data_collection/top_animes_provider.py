@@ -22,8 +22,9 @@ query ($page: Int, $perPage: Int) {
 
 animes = []
 logs = []
+pages = 40
 
-for page in range(1, 22):
+for page in range(1, pages + 1):
     variables = {
         'page': page,
         'perPage': 50
@@ -49,7 +50,7 @@ for page in range(1, 22):
         animes.append(f"{title}{separator}{id}")
 
     print(color_text(f"Fetched page {page} – added {len(animes)} animes", Colors.green))
-    check_limit_and_wait(response)
+    check_limit_and_wait(response, 3)
 
 write_lines('data/top_animes.txt', animes)
 
