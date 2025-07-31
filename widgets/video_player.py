@@ -1,6 +1,6 @@
 from PyQt6.QtWebEngineCore import QWebEngineFullScreenRequest, QWebEngineSettings
 from PyQt6.QtWebEngineWidgets import QWebEngineView
-from PyQt6.QtWidgets import QVBoxLayout, QLabel, QPushButton, QHBoxLayout, QWidget, QMainWindow
+from PyQt6.QtWidgets import QVBoxLayout, QLabel, QPushButton, QHBoxLayout, QWidget
 from PyQt6.QtCore import Qt
 
 
@@ -37,7 +37,6 @@ class WebVideoPlayer(QWidget):
         control_layout.addWidget(self.retry_button)
 
         self.browser_button = QPushButton("Open in Browser")
-        self.browser_button.hide()
         self.browser_button.clicked.connect(self.open_in_browser)
         control_layout.addWidget(self.browser_button)
 
@@ -47,7 +46,6 @@ class WebVideoPlayer(QWidget):
         self.video_url = url
         self.status_label.setText("Loading video...")
         self.retry_button.hide()
-        self.browser_button.hide()
 
         if self.web_view.page():
             self.web_view.page().runJavaScript(
@@ -93,7 +91,7 @@ class WebVideoPlayer(QWidget):
             </style>
         </head>
         <body>
-            <video id="myVideo" controls>
+            <video id="myVideo" controls preload="auto">
                 <source src="{self.video_url}" type="video/webm">
                 Your browser does not support the video tag.
             </video>

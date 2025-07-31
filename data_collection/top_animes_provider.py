@@ -22,7 +22,7 @@ query ($page: Int, $perPage: Int) {
 
 animes = []
 logs = []
-pages = 40
+pages = 100
 
 for page in range(1, pages + 1):
     variables = {

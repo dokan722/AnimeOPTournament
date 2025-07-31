@@ -1,6 +1,6 @@
 import os
+from typing import Dict, Any
 
-import qdarkstyle
 from PyQt6.QtWidgets import QMainWindow, QStackedWidget, QFileDialog, QMessageBox
 from ui.start_screen import StartScreen
 from ui.match_widget import MatchWidget
@@ -49,10 +49,24 @@ class MainWindow(QMainWindow):
         self.start_screen.start_button.clicked.connect(self.start_tournament)
         self.start_screen.load_button.clicked.connect(self.load_tournament)
         self.start_screen.info_button.clicked.connect(self.show_info_window)
+        self.start_screen.op_combo.currentIndexChanged.connect(self.selection_value_changed)
+        self.start_screen.mode_combo.currentIndexChanged.connect(self.mode_value_changed)
         self.match_widget.winnerSelected.connect(self.handle_winner)
         self.match_widget.save_button.clicked.connect(self.save_current_tournament)
         self.winner_widget.restart_button.clicked.connect(self.return_to_main_window)
         self.setStyleSheet(dark_stylesheet)
+
+    def mode_value_changed(self):
+        if self.start_screen.mode_combo.currentIndex() == 0:
+            self.start_screen.take_sb.show()
+        else:
+            self.start_screen.take_sb.hide()
+
+    def selection_value_changed(self):
+        if self.start_screen.op_combo.currentIndex() == 0:
+            self.start_screen.take_sb.setRange(2, self.start_screen.opening_count)
+        else:
+            self.start_screen.take_sb.setRange(2, self.start_screen.anime_count)
 
     def return_to_main_window(self):
         self.winner_widget.video_player.unload_video()
@@ -60,19 +74,15 @@ class MainWindow(QMainWindow):
 
     def start_tournament(self):
         params = self.start_screen.get_tournament_params()
-        if not params['name']:
-            QMessageBox.information(self, "Name missing", "Provide tournament name.")
+        if not self.check_constraints(params):
             return
-
-        # Map selection parameter
-        selection_map = {'all': None, 'first': 'first', 'random': 'random'}
-        selection = selection_map.get(params['selection'])
 
         # Load openings
         openings = get_openings(
-            number=params['size'],
+            take=params['take'],
+            choose=params['choose'],
             mode=params['mode'],
-            selection=selection
+            selection=params['selection']
         )
 
         # Initialize tournament
@@ -82,7 +92,7 @@ class MainWindow(QMainWindow):
     def load_tournament(self):
         saved = get_saved_tournaments()
         if not saved:
-            QMessageBox.critical(self, "Load Error", "Failed to load tournament")
+            QMessageBox.information(self, "Load Error", "No tournaments saved")
             return
 
         filename, _ = QFileDialog.getOpenFileName(
@@ -101,6 +111,15 @@ class MainWindow(QMainWindow):
                 self.show_winner()
             else:
                 self.show_next_match()
+
+    def check_constraints(self, params: Dict[str, Any]):
+        if not params['name']:
+            QMessageBox.information(self, "Name missing", "Provide tournament name.")
+            return False
+        if params['choose'] > params['take']:
+            QMessageBox.information(self, "Wrong size", "You cannot choose more anime than you take.")
+            return False
+        return True
 
     def save_current_tournament(self):
         if not self.manager.name:
@@ -125,9 +144,10 @@ class MainWindow(QMainWindow):
         round_size = len(self.manager.bracket.rounds[current_round])
 
         round_names = {
-            0: "Finals",
-            1: "Semifinals",
-            2: "Quarterfinals"
+            0: "Winner",
+            1: "Finals",
+            2: "Semifinals",
+            3: "Quarterfinals"
         }
         round_name = round_names.get(
             total_rounds - current_round - 1,
@@ -156,8 +176,10 @@ class MainWindow(QMainWindow):
     def show_info_window(self):
         QMessageBox.information(self, "Info", "<h3>Tournament Name</h3>"
 "Name of the tournament, save file name will be based on it."
-"<h3>Tournament size</h3>"
-"Number of openings that will take part in tournament."
+"<h3>Take</h3>"
+"How many openings to take."
+"<h3>Choose</h3>"
+"How many of the openings taken to choose."
 "<h3>Selection mode</h3>"
 "<b>Top</b> - openings will be taken from top animes (based on popularity on anilist.co).<br>"
 "<b>Random</b> - random openings will be selected."

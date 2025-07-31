@@ -1,6 +1,5 @@
 from PyQt6.QtWidgets import (
-    QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QSpacerItem,
-    QSizePolicy, QFrame
+    QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QFrame
 )
 from PyQt6.QtCore import Qt, pyqtSignal
 from widgets.video_player import WebVideoPlayer
@@ -43,6 +42,8 @@ class MatchWidget(QWidget):
         left_layout.addWidget(self.left_info)
 
         self.left_button = QPushButton("Select Winner")
+        self.left_button.setFixedHeight(50)
+        self.left_button.styleSheet()
         self.left_button.clicked.connect(lambda: self.select_winner(0))
         left_layout.addWidget(self.left_button)
 
@@ -61,6 +62,7 @@ class MatchWidget(QWidget):
         right_layout.addWidget(self.right_info)
 
         self.right_button = QPushButton("Select Winner")
+        self.right_button.setFixedHeight(50)
         self.right_button.clicked.connect(lambda: self.select_winner(1))
         right_layout.addWidget(self.right_button)
 

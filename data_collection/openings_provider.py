@@ -28,8 +28,7 @@ num_animes = len(animes)
 added_animes = set()
 opening_entries = []
 logs = []
-
-xd='xd'
+non_empty_animes = 0
 
 for i, anime in enumerate(animes):
     al_id = anime.AniListID
@@ -56,6 +55,8 @@ for i, anime in enumerate(animes):
     openings.sort(key=lambda x: len(x['slug']))
     print(f'Adding openings for {anime.Name} ({i + 1} of {num_animes})')
     added_openings = set()
+    if len(openings) > 0:
+        non_empty_animes += 1
     for opening in openings:
         num = opening['sequence']
         if num in added_openings:
@@ -72,6 +73,8 @@ for i, anime in enumerate(animes):
     check_limit_and_wait(response)
 
 write_lines('data/openings.txt', opening_entries)
+counts = [f'{len(opening_entries)}', f'{non_empty_animes}']
+write_lines('data/counts.txt', counts)
 
 done_messege = f"Done! Fetched {len(opening_entries)} openings."
 print(color_text(done_messege, Colors.green))
